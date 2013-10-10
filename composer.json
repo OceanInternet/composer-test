@@ -1,0 +1,28 @@
+{
+    "name":        "OceanInternet/composer-test",
+    "description": "Composer test project.",
+    "homepage":    "https://github.com/OceanInternet/composer-test",
+    "type":        "project",
+    "license":     "GPL-3.0+",
+    "authors": [
+        {
+            "name":     "Andy Weir",
+            "email":    "andy@ocean-internet.co.uk",
+            "homepage": "http://www.ocean-internet.co.uk",
+            "role":     "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/OceanInternet/composer-test/issues",
+        "wiki":   "https://github.com/OceanInternet/composer-test/wiki"
+    },
+    "require": {
+        "php": "5.3.*",
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": { "ComposerTest": "src/" }
+    }
+}
