@@ -40,7 +40,7 @@ class Setup {
         
     }
     
-    static function preInstall(Event $Event) {
+    public static function preUpdate(Event $Event) {
         
         $IO = $Event->getIO();
         
