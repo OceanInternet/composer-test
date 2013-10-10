@@ -1,5 +1,5 @@
 <?php
-namespace ComposerTest;
+namespace OceanInternet\ComposerTest;
 
 use Composer\Script\Event;
 
